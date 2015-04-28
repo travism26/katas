@@ -1,4 +1,4 @@
-package org.travis;
+package org.travis.bankservice;
 
 public interface IaccountRepoInterface {
 	

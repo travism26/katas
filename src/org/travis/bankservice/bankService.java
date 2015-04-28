@@ -1,4 +1,4 @@
-package org.travis;
+package org.travis.bankservice;
 
 public class bankService implements IBankService {
 
@@ -6,6 +6,7 @@ public class bankService implements IBankService {
 	public bankService(IaccountRepoInterface repo){
 		this.repo = repo;
 	}
+	
 	@Override
 	public double getAccountBalance(String accountId)
 	{
