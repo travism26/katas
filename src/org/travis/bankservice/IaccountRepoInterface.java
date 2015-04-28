@@ -1,6 +1,6 @@
 package org.travis.bankservice;
 
-public interface IaccountRepoInterface {
+public interface IAccountRepoInterface {
 	
 	public double balance(String accountId);
 	
@@ -8,6 +8,6 @@ public interface IaccountRepoInterface {
 	
 	public double debit(String accountId, double amount);
 	
-	public double transfer(String fromAccId, String toAccountId, double amount);
+	public boolean transfer(String fromAccId, String toAccountId, double amount);
 
 }

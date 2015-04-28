@@ -2,8 +2,8 @@ package org.travis.bankservice;
 
 public class bankService implements IBankService {
 
-	IaccountRepoInterface repo;
-	public bankService(IaccountRepoInterface repo){
+	IAccountRepoInterface repo;
+	public bankService(IAccountRepoInterface repo){
 		this.repo = repo;
 	}
 	
