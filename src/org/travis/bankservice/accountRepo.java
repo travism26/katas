@@ -41,7 +41,7 @@ public class accountRepo implements IAccountRepoInterface {
 		double toAccountBalance = accounts.get(toAccountId);
 		double fromAccountBalance = accounts.get(fromAccountId);
 		
-		if((fromAccountBalance -= amount) < 0){
+		if((fromAccountBalance - amount) < 0){
 			//roll back transaction
 			return false;
 		} else{
