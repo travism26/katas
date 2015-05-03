@@ -17,6 +17,10 @@ public class VehicleTest {
 			vehicleList.get(i).setName();
 		}
 
+		for (int i = 0; i < vehicleList.size(); i++)
+		{
+			System.out.println(vehicleList.get(i).Name);
+		}
 	}
 }
 
