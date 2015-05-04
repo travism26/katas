@@ -3,7 +3,7 @@ package org.travis.polymorphism;
 import java.util.ArrayList;
 
 public class VehicleTest {
-	
+
 	public static void main(String[] args)
 	{
 		ArrayList<Vehicle> vehicleList = new ArrayList<>();
@@ -11,7 +11,7 @@ public class VehicleTest {
 		vehicleList.add(new car(4, 2.4));
 		vehicleList.add(new truck());
 		vehicleList.add(new tracktor());
-		
+
 		for (int i = 0; i < vehicleList.size(); i++)
 		{
 			vehicleList.get(i).setName();
@@ -20,12 +20,14 @@ public class VehicleTest {
 		for (int i = 0; i < vehicleList.size(); i++)
 		{
 			System.out.println(vehicleList.get(i).Name);
+			System.out.println(vehicleList.get(i).wheelCount());
+			System.out.println(vehicleList.get(i).engineSize());
 		}
 	}
 }
 
 class tracktor extends Vehicle {
-	
+
 	@Override
 	public String setName()
 	{
@@ -36,7 +38,7 @@ class tracktor extends Vehicle {
 }
 
 class truck extends Vehicle {
-	
+
 	@Override
 	public String setName()
 	{

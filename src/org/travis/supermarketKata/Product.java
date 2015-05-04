@@ -4,8 +4,6 @@ public abstract class Product {
 	
 	double price;
 	
-	public double getPrice(){
-		return price;
-	}
+	abstract double calPrice();
 	
 }
