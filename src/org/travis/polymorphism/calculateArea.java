@@ -9,6 +9,6 @@ public class calculateArea {
 		for(shape item : shape){
 			totalArea += item.calculateArea();
 		}
-		return 0.0;
+		return totalArea;
 	}
 }
