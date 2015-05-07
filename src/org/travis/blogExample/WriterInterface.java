@@ -1,5 +1,5 @@
 package org.travis.blogExample;
 
-interface Article {
+interface WriterInterface {
 	public String writeFormat();
 }
