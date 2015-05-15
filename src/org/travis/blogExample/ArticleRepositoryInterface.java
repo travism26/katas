@@ -4,10 +4,12 @@ interface ArticleRepositoryInterface {
 	
 	public String getArticle(int id);
 	
-	public String updateArticle(int id, String article);
+	public boolean updateArticle(int id, String updatedArticle);
 	
-	public String deleteArticle(int id, String article);
+	public void deleteArticle(int id);
 	
-	public String createArticle(int id, String article);
+	public String createArticle(String article);
+	
+	public String getComments(int articleId);
 	
 }

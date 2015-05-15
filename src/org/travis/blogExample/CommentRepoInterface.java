@@ -1,14 +1,16 @@
 package org.travis.blogExample;
 
 public interface CommentRepoInterface {
+	
+	public String getParentArticle(int ArticleId);
 
-	public String createComment(int id, String comment);
+	public String createComment(String comment);
 
 	public String getComment(int id);
 	
-	public String updateComment(int id, String comment);
+	public String updateComment(int id, String updatedComment);
 	
-	public String deleteComment(int id, String comment);
+	public String deleteComment(int id);
 	
 }
 
