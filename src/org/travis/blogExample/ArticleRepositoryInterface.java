@@ -1,6 +1,6 @@
 package org.travis.blogExample;
 
-interface RepositoryInterface {
+interface ArticleRepositoryInterface {
 	
 	public String getArticle(int id);
 	
