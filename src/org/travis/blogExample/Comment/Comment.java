@@ -1,4 +1,4 @@
-package org.travis.blogExample;
+package org.travis.blogExample.Comment;
 
 public class Comment {
 	private int id;

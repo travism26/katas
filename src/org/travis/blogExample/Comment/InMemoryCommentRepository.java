@@ -1,4 +1,4 @@
-package org.travis.blogExample;
+package org.travis.blogExample.Comment;
 
 public class InMemoryCommentRepository implements CommentRepoInterface{
 
