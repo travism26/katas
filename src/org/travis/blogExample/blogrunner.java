@@ -12,7 +12,8 @@ public class blogrunner {
 		ArrayList<Article> articles;
 		ArrayList<Comment> comments;
 		
-		
+		//Populator populator = new PopulatorBuilder().build();
+		//Person person = populator.populateBean(Person.class);
 	}
 	
 	
