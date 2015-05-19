@@ -1,34 +1,39 @@
 package org.travis.blogExample.Comment;
 
-public class InMemoryCommentRepository implements CommentRepoInterface{
+import java.util.ArrayList;
 
-	
-	@Override
-	public String createComment(String comment)
+public class InMemoryCommentRepository implements CommentRepoInterface {
+
+	ArrayList<Comment> comments;
+
+	public InMemoryCommentRepository(ArrayList<Comment> comments)
 	{
-		// TODO Auto-generated method stub
+		this.comments = comments;
+	}
+
+	@Override
+	public void createComment(int id)
+	{
+		
+	}
+
+	@Override
+	public Comment getComment(int id)
+	{
+		
 		return null;
 	}
 
 	@Override
-	public String getComment(int id)
+	public void updateComment(int id, String updatedComment)
 	{
 		// TODO Auto-generated method stub
-		return null;
 	}
 
 	@Override
-	public String updateComment(int id, String updatedComment)
+	public void deleteComment(int id)
 	{
 		// TODO Auto-generated method stub
-		return null;
-	}
-
-	@Override
-	public String deleteComment(int id)
-	{
-		// TODO Auto-generated method stub
-		return null;
 	}
 
 	@Override
@@ -38,5 +43,4 @@ public class InMemoryCommentRepository implements CommentRepoInterface{
 		return null;
 	}
 
-	
 }

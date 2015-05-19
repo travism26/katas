@@ -4,13 +4,13 @@ public interface CommentRepoInterface {
 	
 	public String getParentArticle(int ArticleId);
 
-	public String createComment(String comment);
+	public Comment getComment(int id);
 
-	public String getComment(int id);
+	public void createComment(int id);
 	
-	public String updateComment(int id, String updatedComment);
+	public void updateComment(int id, String updatedComment);
 	
-	public String deleteComment(int id);
+	public void deleteComment(int id);
 	
 }
 
