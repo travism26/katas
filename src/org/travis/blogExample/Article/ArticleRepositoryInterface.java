@@ -2,7 +2,7 @@ package org.travis.blogExample.Article;
 
 import org.travis.blogExample.Comment.Comment;
 
-interface ArticleRepositoryInterface {
+public interface ArticleRepositoryInterface {
 	
 	public Article getArticle(int id);
 	
