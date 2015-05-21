@@ -18,6 +18,7 @@ public class blogrunner {
 		HashMap<String, String> inputValues = new HashMap();
 		
 		
+		
 		//repo list
 		ArrayList<Article> articles = new ArrayList<>();
 		
