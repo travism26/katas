@@ -67,15 +67,15 @@ public class Article {
 		setCategory(updatedArticle.getCategory());
 	}
 	
-	
+	//brent@
 	//this should not be in the model just used for testing.
 	//middle layer should handle receiving the input note the innerlayer.
 	public Article createArticle(InputInterface Input){
-		Map<String, String> input;
+		Map<Object, Object> input;
 		input = Input.getAll();
-		String title = input.get("title");
-		String article = input.get("article");
-		String category = input.get("category");
+		String title = input.get("title").toString();
+		String article = input.get("article").toString();
+		String category = input.get("category").toString();
 		
 		Article value = new Article(title, article, category);
 		

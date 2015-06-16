@@ -21,7 +21,7 @@ public class input implements InputInterface {
 	 * allInput = input.getAll();
 	 */
 
-	HashMap<String, Object> input;
+	HashMap<Object, Object> input;
 
 	public input()
 	{
@@ -29,7 +29,7 @@ public class input implements InputInterface {
 	}
 
 	@Override
-	public Map<String, Object> getAll()
+	public Map<Object, Object> getAll()
 	{
 		return input;
 	}

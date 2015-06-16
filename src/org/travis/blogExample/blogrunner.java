@@ -19,11 +19,15 @@ public class blogrunner {
 		
 		
 		
-		//repo list
+		// repo list
 		ArrayList<Article> articles = new ArrayList<>();
 		
-		//repo list
+		// repo list
 		ArrayList<Comment> comments = new ArrayList<>();
+		
+		// 
+		articles.add(new Article("Title of the comment", "this is where my article", "Article"));
+		articles.add(new Article("Travis Post", "this is the body", "travis poly"));
 		
 		ArticleRepositoryInterface articleService = 
 				new InMemoryArticleRepository(articles);
@@ -32,6 +36,12 @@ public class blogrunner {
 				new InMemoryCommentRepository(comments);
 		
 		InputInterface input = new input();
+		input.put("title", "GET MY TITLE FROM THE INPUT CLASS");
+		input.put("article", "the article body was taken from the input class");
+		input.put("category", "php, input, java");
+		
+		articles.add(new Article(input.get("title").toString(), input.get("article").toString(), input.get("category").toString()));
+		
 		
 		
 	}	
