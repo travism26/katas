@@ -1,4 +1,4 @@
-package org.travis.polymorphism;
+package org.travis.polymorphism.nodeExample;
 
 abstract class OpNode extends Node {
 	Node left;

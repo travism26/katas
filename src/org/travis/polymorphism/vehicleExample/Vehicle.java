@@ -1,4 +1,4 @@
-package org.travis.polymorphism;
+package org.travis.polymorphism.vehicleExample;
 
 import java.util.ArrayList;
 

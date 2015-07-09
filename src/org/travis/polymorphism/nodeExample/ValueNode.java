@@ -1,4 +1,5 @@
-package org.travis.polymorphism;
+package org.travis.polymorphism.nodeExample;
+
 
 class ValueNode extends Node {
 

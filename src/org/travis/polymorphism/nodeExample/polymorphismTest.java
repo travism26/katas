@@ -1,6 +1,5 @@
-package org.travis.polymorphism;
+package org.travis.polymorphism.nodeExample;
 
-import org.travis.polymorphism.Node;
 
 public class polymorphismTest {
 
