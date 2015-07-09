@@ -17,8 +17,6 @@ public class blogrunner {
 		//represent some input view / front end stuff not important ATM.
 		HashMap<String, String> inputValues = new HashMap();
 		
-		
-		
 		// repo list
 		ArrayList<Article> articles = new ArrayList<>();
 		

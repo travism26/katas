@@ -1,4 +1,4 @@
-package org.travis.polymorphism;
+package org.travis.polymorphism.shapeExample;
 
 interface shape {
 	double calculateArea();

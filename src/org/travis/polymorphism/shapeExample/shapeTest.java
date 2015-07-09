@@ -1,4 +1,4 @@
-package org.travis.polymorphism;
+package org.travis.polymorphism.shapeExample;
 
 public class shapeTest {
 
